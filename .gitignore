@@ -2,3 +2,22 @@
 .idea/
 .idea
 */.idea
+.DS_Store
+
+# Ignore downloaded datasets
+embeddings/data/
+embeddings/text8.zip
+face_generation/data/
+**/embeddings/data/
+**/embeddings/text8.zip
+**/face_generation/data/
+
+.ipynb_checkpoints/
+
+
+*.pyc
+*.p
+*.pkl
+
+*/.floyd*
+
